@@ -8,12 +8,12 @@ import * as firebase from 'firebase';
 })
 export class AppComponent {
   constructor() {
-    let firebaseConfig = {
+    var firebaseConfig = {
       apiKey: "AIzaSyCdkjTUV38zRuB4cYp-eQDfh-IAEWeCD2I",
       authDomain: "bookshelves-oc-tuto.firebaseapp.com",
       databaseURL: "https://bookshelves-oc-tuto.firebaseio.com",
       projectId: "bookshelves-oc-tuto",
-      storageBucket: "",
+      storageBucket: "bookshelves-oc-tuto.appspot.com",
       messagingSenderId: "692882087168",
       appId: "1:692882087168:web:50360df8ba6186b84de7e5",
       measurementId: "G-YC0VEWMSL2"
